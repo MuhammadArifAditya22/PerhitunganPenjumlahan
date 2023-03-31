@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hasil">
+
+    <TextView
+        android:id="@+id/txJudulHasil"
+        android:text="Hasil Perhitungan"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:gravity="center"
+         />
+
+    <EditText
+        android:id="@+id/Hhasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txJudulHasil"
+        android:hint="Hasil"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="50dp"
+        android:padding="30dp"/>
+
+</RelativeLayout>
